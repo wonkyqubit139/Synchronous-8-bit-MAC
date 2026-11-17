@@ -1,0 +1,134 @@
+==============================================================================
+SYNTHESIS REPORT  --  Yosys 0.33, sky130_fd_sc_hd tt_025C_1v80, Tclk = 4 ns
+==============================================================================
+
+--- BASELINE (STAGES=1, behavioural *,+, default ABC)
+total cells 452   combinational 432   sequential 20 (flip-flops 20, clock gates 0)   area 4449.3 um^2
+
+4. Printing statistics.
+
+=== mac8 ===
+
+   Number of wires:                438
+   Number of wire bits:            471
+   Number of public wires:         438
+   Number of public wire bits:     471
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                452
+     sky130_fd_sc_hd__a211o_2        7
+     sky130_fd_sc_hd__a211oi_2       2
+     sky130_fd_sc_hd__a21bo_2        6
+     sky130_fd_sc_hd__a21boi_2       1
+     sky130_fd_sc_hd__a21o_2        22
+     sky130_fd_sc_hd__a21oi_2       25
+     sky130_fd_sc_hd__a22o_2        15
+     sky130_fd_sc_hd__a22oi_2        7
+     sky130_fd_sc_hd__a2bb2o_2       2
+     sky130_fd_sc_hd__a31o_2         3
+     sky130_fd_sc_hd__a32o_2         1
+     sky130_fd_sc_hd__a41o_2         1
+     sky130_fd_sc_hd__and2_2        17
+     sky130_fd_sc_hd__and2b_2       12
+     sky130_fd_sc_hd__and3_2        22
+     sky130_fd_sc_hd__and4_2        13
+     sky130_fd_sc_hd__and4b_2        5
+     sky130_fd_sc_hd__and4bb_2       8
+     sky130_fd_sc_hd__dfxtp_2       20
+     sky130_fd_sc_hd__inv_2          9
+     sky130_fd_sc_hd__mux2_1         1
+     sky130_fd_sc_hd__nand2_2       39
+     sky130_fd_sc_hd__nand2b_2       8
+     sky130_fd_sc_hd__nand3_2       14
+     sky130_fd_sc_hd__nand4_2        8
+     sky130_fd_sc_hd__nor2_2        44
+     sky130_fd_sc_hd__nor3_2         3
+     sky130_fd_sc_hd__nor3b_2        2
+     sky130_fd_sc_hd__o2111a_2       1
+     sky130_fd_sc_hd__o211a_2        5
+     sky130_fd_sc_hd__o211ai_2       7
+     sky130_fd_sc_hd__o21a_2         8
+     sky130_fd_sc_hd__o21ai_2       13
+     sky130_fd_sc_hd__o21ba_2        4
+     sky130_fd_sc_hd__o21bai_2       2
+     sky130_fd_sc_hd__o22a_2         1
+     sky130_fd_sc_hd__o2bb2a_2      17
+     sky130_fd_sc_hd__o31a_2         3
+     sky130_fd_sc_hd__o31ai_2        3
+     sky130_fd_sc_hd__or2_2         24
+     sky130_fd_sc_hd__or3_2          2
+     sky130_fd_sc_hd__or3b_2         4
+     sky130_fd_sc_hd__or4b_2         1
+     sky130_fd_sc_hd__or4bb_2        1
+     sky130_fd_sc_hd__xnor2_2       33
+     sky130_fd_sc_hd__xor2_2         6
+
+   Chip area for module '\mac8': 4449.267200
+
+
+--- OPTIMISED (STAGES=2, carry-save + Kogge-Stone RTL, clock gating, delay ABC recipe)
+total cells 604   combinational 555   sequential 49 (flip-flops 47, clock gates 2)   area 5211.2 um^2
+
+4. Printing statistics.
+
+=== mac8 ===
+
+   Number of wires:                545
+   Number of wire bits:            691
+   Number of public wires:         545
+   Number of public wire bits:     691
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                604
+     sky130_fd_sc_hd__a211o_2        1
+     sky130_fd_sc_hd__a21bo_2       15
+     sky130_fd_sc_hd__a21boi_2       6
+     sky130_fd_sc_hd__a21o_2        13
+     sky130_fd_sc_hd__a21oi_2       14
+     sky130_fd_sc_hd__a22o_2        17
+     sky130_fd_sc_hd__a31o_2         2
+     sky130_fd_sc_hd__a31oi_2        1
+     sky130_fd_sc_hd__and2_2        12
+     sky130_fd_sc_hd__and2b_2        7
+     sky130_fd_sc_hd__and3_2        18
+     sky130_fd_sc_hd__and4_2         3
+     sky130_fd_sc_hd__dfxtp_2       47
+     sky130_fd_sc_hd__dlclkp_1       2
+     sky130_fd_sc_hd__inv_2         79
+     sky130_fd_sc_hd__nand2_2      176
+     sky130_fd_sc_hd__nand3_2        5
+     sky130_fd_sc_hd__nand3b_2       1
+     sky130_fd_sc_hd__nor2_2         9
+     sky130_fd_sc_hd__o211a_2        1
+     sky130_fd_sc_hd__o21a_2         9
+     sky130_fd_sc_hd__o21ai_2       11
+     sky130_fd_sc_hd__o21bai_2       1
+     sky130_fd_sc_hd__o2bb2a_2       1
+     sky130_fd_sc_hd__o2bb2ai_2      1
+     sky130_fd_sc_hd__o31a_2         1
+     sky130_fd_sc_hd__or2_2         61
+     sky130_fd_sc_hd__or2b_2        31
+     sky130_fd_sc_hd__or3_2          7
+     sky130_fd_sc_hd__or3b_2         1
+     sky130_fd_sc_hd__or4_2         12
+     sky130_fd_sc_hd__or4b_2         1
+     sky130_fd_sc_hd__xnor2_2       11
+     sky130_fd_sc_hd__xor2_2        27
+
+   Chip area for module '\mac8': 5211.248000
+
+
+--- ARCHITECTURE SWEEP (all synthesised with the same OpenLane-legal library)
+config                  cells  comb  seq     area     WNS     r2r    Fmax    Pvl   Pvcd  GLS
+s1_f0_g0                  452   432   20   4449.3  -2.632  -2.204   150.8  2.279  1.726  PASS
+s2_f0_g0                  476   439   37   4882.2  -1.400  -0.322   185.2  1.653  1.555  PASS
+s3_f0_g0                  537   475   62   5501.5  -0.486  -0.322   222.9  1.682  1.888  PASS
+s1_f1_g0                  463   443   20   4642.0  -2.706  -0.551   149.1  1.924  1.710  PASS
+s2_f1_g0                  535   488   47   5539.1   0.465   0.465   282.9  2.298  1.823  PASS
+s3_f1_g0                  622   535   87   6847.8   0.465   0.465   282.9  2.661  2.304  PASS
+s2_f1_g1                  471   422   49   5001.0  -0.063  -0.063   246.1  1.880  1.666  PASS
+s3_f1_g1                  519   429   90   5999.5   0.391   0.391   277.1  1.902  2.055  PASS
+final (s2_f1_g1 + delay ABC)    604   555   49   5211.2  -0.004   0.971   249.8  1.893  1.680  PASS
+  sS_fF_gG = STAGES, FAST_ARITH, CLK_GATE; WNS/r2r in ns; Fmax MHz = 1/(4ns - WNS); power mW

@@ -1,0 +1,23 @@
+die_area_um2        10000.0  (100.00 x 100.00 um)
+core_area_um2       7727.4  (88.78 x 87.04 um)
+stdcell_area_um2    4317.9  (logic + buffers, excl. tap/fill/decap)
+utilization_pct     55.9
+instances_total     1323
+stdcells_logic      627   (flip-flops 47, clock gates 2, CTS buffers 12)
+physical_only       696  (tap / decap / fill)
+wns_setup_ns        0.716
+wns_hold_ns         0.053
+critical_data_arrival_ns 3.661  (incl. launch clock latency 0.000)
+critical_path_delay_ns   3.661  (launch flop CLK -> capture D)
+critical_required_ns     4.377
+critical_endpoint        _1128_/D
+clock_latency_ff_ns   min 0.673  max 0.718  -> flop-to-flop skew 0.045  (47 flops)
+clock_latency_icg_ns  0.227709 0.228134  (clock-gate CLK pins sit before their subtrees)
+Clock clk
+  0.673 source latency _1109_/CLK ^
+ -0.228 target latency g_fast.g_acc_cg.u_cg_a.u_icg/CLK ^
+  0.250 clock uncertainty
+  0.000 CRPR
+--------------
+  0.695 setup skew
+

@@ -1,0 +1,30 @@
+Startpoint: _843_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: g_fast.g_acc_cg.u_cg_a.u_icg
+          (rising clock gating-check end-point clocked by clk)
+Path Group: clk
+Path Type: min
+
+   Delay     Time   Description
+-----------------------------------------------------------
+   0.000    0.000   clock clk (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.000    0.000 ^ _843_/CLK (sky130_fd_sc_hd__dfxtp_2)
+   0.334    0.334 ^ _843_/Q (sky130_fd_sc_hd__dfxtp_2)
+   0.081    0.415 ^ _649_/X (sky130_fd_sc_hd__or2_2)
+   0.000    0.415 ^ g_fast.g_acc_cg.u_cg_a.u_icg/GATE (sky130_fd_sc_hd__dlclkp_1)
+            0.415   data arrival time
+
+   0.000    0.000   clock clk (rise edge)
+   0.000    0.000   clock network delay (ideal)
+   0.250    0.250   clock uncertainty
+   0.000    0.250   clock reconvergence pessimism
+            0.250 ^ g_fast.g_acc_cg.u_cg_a.u_icg/CLK (sky130_fd_sc_hd__dlclkp_1)
+  -0.046    0.204   library hold time
+            0.204   data required time
+-----------------------------------------------------------
+            0.204   data required time
+           -0.415   data arrival time
+-----------------------------------------------------------
+            0.211   slack (MET)
+
+

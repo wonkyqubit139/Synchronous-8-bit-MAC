@@ -1,0 +1,4 @@
+wns_setup_ns 0.7155
+wns_hold_ns  0.0529
+tns_setup_ns 0.0000
+tns_hold_ns  0.0000

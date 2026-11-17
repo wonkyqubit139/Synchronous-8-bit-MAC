@@ -1,0 +1,54 @@
+==============================================================================
+POWER REPORT  --  OpenSTA, tt 25C 1.8V, 250 MHz
+==============================================================================
+Vectorless = default activity (0.1 on inputs, propagated). VCD = switching activity of every net
+annotated from gate-level simulation of the self-checking testbench (random A/B every cycle).
+
+baseline  synthesis : vectorless 2.279 mW   VCD 1.726 mW
+optimised synthesis : vectorless 1.893 mW   VCD 1.680 mW
+
+FINAL LAYOUT (SPEF parasitics, CTS buffers included)
+  vectorless : dynamic 2.373 mW  leakage 0.003 uW  total 2.373 mW
+  VCD, enable  25% : dynamic 1.177 mW  leakage 0.003 uW  total 1.177 mW  (clock tree 0.222 mW)
+  VCD, enable  50% : dynamic 1.485 mW  leakage 0.003 uW  total 1.485 mW  (clock tree 0.277 mW)
+  VCD, enable  75% : dynamic 1.760 mW  leakage 0.003 uW  total 1.760 mW  (clock tree 0.328 mW)
+  VCD, enable 100% : dynamic 2.006 mW  leakage 0.003 uW  total 2.006 mW  (clock tree 0.378 mW)
+
+--- vectorless detail
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           4.643516e-04 3.065221e-04 4.013195e-10 7.708741e-04  32.5%
+Combinational        6.044200e-04 7.113363e-04 1.934642e-09 1.315758e-03  55.4%
+Clock                1.631962e-04 1.230822e-04 1.055669e-09 2.862794e-04  12.1%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                1.231968e-03 1.140940e-03 3.391638e-09 2.372912e-03 100.0%
+                            51.9%        48.1%         0.0%
+
+--- VCD detail, enable 75 %
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           4.449498e-04 1.323176e-04 3.989915e-10 5.772678e-04  32.8%
+Combinational        3.722106e-04 4.823685e-04 1.954289e-09 8.545810e-04  48.6%
+Clock                1.792733e-04 1.490601e-04 1.054362e-09 3.283344e-04  18.7%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                9.964337e-04 7.637461e-04 3.407651e-09 1.760183e-03 100.0%
+                            56.6%        43.4%         0.0%
+
+--- VCD detail, enable 100 % (worst case)
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           5.708633e-04 1.722645e-04 3.985160e-10 7.431281e-04  37.0%
+Combinational        3.857193e-04 4.991650e-04 1.952563e-09 8.848864e-04  44.1%
+Clock                1.953150e-04 1.830005e-04 1.052928e-09 3.783166e-04  18.9%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                1.151898e-03 8.544300e-04 3.404015e-09 2.006331e-03 100.0%
+                            57.4%        42.6%         0.0%

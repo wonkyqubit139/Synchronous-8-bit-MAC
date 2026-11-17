@@ -1,0 +1,18 @@
+Magic DRC report for mac8   style: drc(full)
+GDS: build/pnr/run/signoff/mac8.gds
+-------------------------------------------------------------
+-------------------------------------------------------------
+Total DRC violations: 0
+
+--- before the min-area fix (same run) ---
+Magic DRC report for mac8   style: drc(full)
+GDS: build/pnr/run/signoff/mac8.gds
+-------------------------------------------------------------
+Metal3 minimum area < 0.24um^2 (met3.6) : 5 boxes
+-------------------------------------------------------------
+Total DRC violations: 5
+
+Fix (done in Magic, config/magic_eco.tcl): ECO metal3 island patched (centre): x 16.350..17.230  y 43.030..43.330 um
+OpenROAD detailed-router DRC violations: 0
+OpenROAD antenna check: 0 net violations
+DRC deck self-test: an injected 50nm x 50nm metal1 square is reported as met1.1 + met1.6 (2 errors).

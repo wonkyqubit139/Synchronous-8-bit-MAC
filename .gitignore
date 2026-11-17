@@ -1,0 +1,19 @@
+# made by run_all.sh, can always be regenerated
+
+build/
+
+# sim outputs
+*.vvp
+*.vcd
+*.fst
+
+# magic temp files
+*.ext
+*.mag
+!layout/*.mag
+
+# python / editor / mac junk
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store

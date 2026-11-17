@@ -1,0 +1,18 @@
+VCD info: dumpfile mac8_tb.vcd opened for output.
+==============================================================
+ mac8 self-checking testbench  STAGES=3 FAST_ARITH=1 CLK_GATE=1 latency=3
+==============================================================
+--------------------------------------------------------------
+ Group                         checks   errors
+ T1 reset                           9        0
+ T2 accumulate (enable=1)           7        0
+ T3 hold (enable=0)                43        0
+ T4 A/B combinations              164        0
+ T5 boundary 0/255                 76        0
+ T6 wrap-around                    44        0
+ T7 reset mid-burst                24        0
+ T8 random (5000 cycles)          5003        0
+--------------------------------------------------------------
+ RESULT: PASS  (5370 cycle checks, 0 errors)
+==============================================================
+../tb/mac8_tb.v:228: $finish called at 21482500 (1ps)

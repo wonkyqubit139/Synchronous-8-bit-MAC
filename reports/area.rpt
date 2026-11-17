@@ -1,0 +1,19 @@
+==============================================================================
+AREA REPORT
+==============================================================================
+baseline synthesis  : 4449.3 um^2, 452 cells
+optimised synthesis : 5211.2 um^2, 604 cells
+
+FINAL LAYOUT
+  die_area_um2         10000.0
+  core_area_um2        7727.4
+  stdcell_area_um2     4317.9
+  utilization_pct      55.9
+  instances_total      1323
+  stdcells_logic       627
+  flipflops            47
+  icg                  2
+  cts_buffers          12
+  physical_only        696
+
+OpenROAD report_design_area (includes tap/endcap cells): Design area 4446 u^2 58% utilization.

@@ -1,0 +1,397 @@
+{
+ "baseline": {
+  "cells": 452,
+  "sequential": 20,
+  "combinational": 432,
+  "flipflops": 20,
+  "icg": 0,
+  "area_um2": 4449.2672,
+  "wns_setup_ns": -2.6324,
+  "wns_hold_ns": 0.306,
+  "wns_reg2reg_ns": -2.204,
+  "tmin_ns": 6.632,
+  "fmax_mhz": 150.8,
+  "critical_arrival_ns": 6.288,
+  "critical_start": "A[5]",
+  "critical_end": "_876_",
+  "power_vectorless_mW": 2.2789669999999997,
+  "power_vcd_mW": 1.72608,
+  "gls": "PASS"
+ },
+ "optimised_synth": {
+  "cells": 604,
+  "sequential": 49,
+  "combinational": 555,
+  "flipflops": 47,
+  "icg": 2,
+  "area_um2": 5211.248,
+  "wns_setup_ns": -0.0037,
+  "wns_hold_ns": 0.2111,
+  "wns_reg2reg_ns": 0.971,
+  "tmin_ns": 4.004,
+  "fmax_mhz": 249.8,
+  "critical_arrival_ns": 3.664,
+  "critical_start": "A[6]",
+  "critical_end": "_1102_",
+  "power_vectorless_mW": 1.892512,
+  "power_vcd_mW": 1.680419,
+  "gls": "PASS"
+ },
+ "sweep": {
+  "s1_f0_g0": {
+   "cells": 452,
+   "sequential": 20,
+   "combinational": 432,
+   "flipflops": 20,
+   "icg": 0,
+   "area_um2": 4449.2672,
+   "wns_setup_ns": -2.6324,
+   "wns_hold_ns": 0.306,
+   "wns_reg2reg_ns": -2.204,
+   "tmin_ns": 6.632,
+   "fmax_mhz": 150.8,
+   "critical_arrival_ns": 6.288,
+   "critical_start": "A[5]",
+   "critical_end": "_876_",
+   "power_vectorless_mW": 2.2789669999999997,
+   "power_vcd_mW": 1.72608,
+   "gls": "PASS"
+  },
+  "s2_f0_g0": {
+   "cells": 476,
+   "sequential": 37,
+   "combinational": 439,
+   "flipflops": 37,
+   "icg": 0,
+   "area_um2": 4882.1824,
+   "wns_setup_ns": -1.4001,
+   "wns_hold_ns": 0.2334,
+   "wns_reg2reg_ns": -0.322,
+   "tmin_ns": 5.4,
+   "fmax_mhz": 185.2,
+   "critical_arrival_ns": 5.066,
+   "critical_start": "B[1]",
+   "critical_end": "_913_",
+   "power_vectorless_mW": 1.652711,
+   "power_vcd_mW": 1.555411,
+   "gls": "PASS"
+  },
+  "s3_f0_g0": {
+   "cells": 537,
+   "sequential": 62,
+   "combinational": 475,
+   "flipflops": 62,
+   "icg": 0,
+   "area_um2": 5501.5264,
+   "wns_setup_ns": -0.486,
+   "wns_hold_ns": 0.208,
+   "wns_reg2reg_ns": -0.322,
+   "tmin_ns": 4.486,
+   "fmax_mhz": 222.9,
+   "critical_arrival_ns": 4.152,
+   "critical_start": "A[2]",
+   "critical_end": "_0993_",
+   "power_vectorless_mW": 1.6822320000000002,
+   "power_vcd_mW": 1.887928,
+   "gls": "PASS"
+  },
+  "s1_f1_g0": {
+   "cells": 463,
+   "sequential": 20,
+   "combinational": 443,
+   "flipflops": 20,
+   "icg": 0,
+   "area_um2": 4641.952,
+   "wns_setup_ns": -2.7064,
+   "wns_hold_ns": 0.3647,
+   "wns_reg2reg_ns": -0.551,
+   "tmin_ns": 6.706,
+   "fmax_mhz": 149.1,
+   "critical_arrival_ns": 6.373,
+   "critical_start": "A[4]",
+   "critical_end": "_902_",
+   "power_vectorless_mW": 1.924271,
+   "power_vcd_mW": 1.709851,
+   "gls": "PASS"
+  },
+  "s2_f1_g0": {
+   "cells": 535,
+   "sequential": 47,
+   "combinational": 488,
+   "flipflops": 47,
+   "icg": 0,
+   "area_um2": 5539.0624,
+   "wns_setup_ns": 0.4647,
+   "wns_hold_ns": 0.2138,
+   "wns_reg2reg_ns": 0.465,
+   "tmin_ns": 3.535,
+   "fmax_mhz": 282.9,
+   "critical_arrival_ns": 3.202,
+   "critical_start": "_0979_",
+   "critical_end": "_0992_",
+   "power_vectorless_mW": 2.298333,
+   "power_vcd_mW": 1.822534,
+   "gls": "PASS"
+  },
+  "s3_f1_g0": {
+   "cells": 622,
+   "sequential": 87,
+   "combinational": 535,
+   "flipflops": 87,
+   "icg": 0,
+   "area_um2": 6847.8176,
+   "wns_setup_ns": 0.4647,
+   "wns_hold_ns": 0.208,
+   "wns_reg2reg_ns": 0.465,
+   "tmin_ns": 3.535,
+   "fmax_mhz": 282.9,
+   "critical_arrival_ns": 3.202,
+   "critical_start": "_1098_",
+   "critical_end": "_1111_",
+   "power_vectorless_mW": 2.660565,
+   "power_vcd_mW": 2.303824,
+   "gls": "PASS"
+  },
+  "s2_f1_g1": {
+   "cells": 471,
+   "sequential": 49,
+   "combinational": 422,
+   "flipflops": 47,
+   "icg": 2,
+   "area_um2": 5001.0464,
+   "wns_setup_ns": -0.0631,
+   "wns_hold_ns": 0.2111,
+   "wns_reg2reg_ns": -0.063,
+   "tmin_ns": 4.063,
+   "fmax_mhz": 246.1,
+   "critical_arrival_ns": 3.714,
+   "critical_start": "_846_",
+   "critical_end": "_863_",
+   "power_vectorless_mW": 1.879592,
+   "power_vcd_mW": 1.665789,
+   "gls": "PASS"
+  },
+  "s3_f1_g1": {
+   "cells": 519,
+   "sequential": 90,
+   "combinational": 429,
+   "flipflops": 87,
+   "icg": 3,
+   "area_um2": 5999.504,
+   "wns_setup_ns": 0.3911,
+   "wns_hold_ns": 0.0972,
+   "wns_reg2reg_ns": 0.391,
+   "tmin_ns": 3.609,
+   "fmax_mhz": 277.1,
+   "critical_arrival_ns": 3.265,
+   "critical_start": "_831_",
+   "critical_end": "_846_",
+   "power_vectorless_mW": 1.902001,
+   "power_vcd_mW": 2.0548469999999996,
+   "gls": "PASS"
+  },
+  "final (s2_f1_g1 + delay ABC)": {
+   "cells": 604,
+   "sequential": 49,
+   "combinational": 555,
+   "flipflops": 47,
+   "icg": 2,
+   "area_um2": 5211.248,
+   "wns_setup_ns": -0.0037,
+   "wns_hold_ns": 0.2111,
+   "wns_reg2reg_ns": 0.971,
+   "tmin_ns": 4.004,
+   "fmax_mhz": 249.8,
+   "critical_arrival_ns": 3.664,
+   "critical_start": "A[6]",
+   "critical_end": "_1102_",
+   "power_vectorless_mW": 1.892512,
+   "power_vcd_mW": 1.680419,
+   "gls": "PASS"
+  }
+ },
+ "block_split": {
+  "multiplier_arrival_ns": 5.066,
+  "adder_arrival_ns": 3.99,
+  "adder_clk_to_q_ns": 0.421
+ },
+ "post_layout": {
+  "die_area_um2": 10000.0,
+  "core_area_um2": 7727.4,
+  "stdcell_area_um2": 4317.9,
+  "utilization_pct": 55.9,
+  "instances_total": 1323,
+  "stdcells_logic": 627,
+  "flipflops": 47,
+  "icg": 2,
+  "cts_buffers": 12,
+  "physical_only": 696,
+  "wns_setup_ns": 0.716,
+  "wns_hold_ns": 0.053,
+  "critical_arrival_ns": 3.661,
+  "critical_endpoint": "_1128_/D",
+  "ff_latency_min_ns": 0.673,
+  "ff_latency_max_ns": 0.718,
+  "ff_skew_ns": 0.045,
+  "sta_setup_skew_ns": 0.695,
+  "clock_period_ns": 4.0,
+  "openroad_design_area": [
+   "4446",
+   "58"
+  ],
+  "tns_setup_ns": 0.0,
+  "critical_launch_clock_ns": 0.689,
+  "critical_data_path_ns": 2.972,
+  "tmin_ns": 3.284,
+  "fmax_mhz": 304.5,
+  "power_vectorless": {
+   "sequential": {
+    "internal": 0.4643516,
+    "switching": 0.3065221,
+    "leakage": 4.0131950000000004e-07,
+    "total": 0.7708741
+   },
+   "combinational": {
+    "internal": 0.6044200000000001,
+    "switching": 0.7113363,
+    "leakage": 1.934642e-06,
+    "total": 1.315758
+   },
+   "clock": {
+    "internal": 0.16319619999999999,
+    "switching": 0.12308220000000002,
+    "leakage": 1.0556690000000001e-06,
+    "total": 0.28627939999999996
+   },
+   "total": {
+    "internal": 1.231968,
+    "switching": 1.14094,
+    "leakage": 3.391638e-06,
+    "total": 2.372912
+   }
+  },
+  "power_vcd": {
+   "25": {
+    "sequential": {
+     "internal": 0.1867279,
+     "switching": 0.05141941,
+     "leakage": 3.996839e-07,
+     "total": 0.2381477
+    },
+    "combinational": {
+     "internal": 0.3086125,
+     "switching": 0.40784970000000004,
+     "leakage": 1.951474e-06,
+     "total": 0.7164641
+    },
+    "clock": {
+     "internal": 0.1410037,
+     "switching": 0.08091301000000001,
+     "leakage": 1.057477e-06,
+     "total": 0.2219177
+    },
+    "total": {
+     "internal": 0.6363442,
+     "switching": 0.540182,
+     "leakage": 3.408643e-06,
+     "total": 1.17653
+    }
+   },
+   "50": {
+    "sequential": {
+     "internal": 0.3176025,
+     "switching": 0.09192478999999999,
+     "leakage": 3.992398e-07,
+     "total": 0.4095277
+    },
+    "combinational": {
+     "internal": 0.3466737,
+     "switching": 0.4519125,
+     "leakage": 1.9536489999999997e-06,
+     "total": 0.7985882
+    },
+    "clock": {
+     "internal": 0.1612765,
+     "switching": 0.1152633,
+     "leakage": 1.055867e-06,
+     "total": 0.27654090000000003
+    },
+    "total": {
+     "internal": 0.8255526,
+     "switching": 0.6591007000000001,
+     "leakage": 3.408764e-06,
+     "total": 1.484657
+    }
+   },
+   "75": {
+    "sequential": {
+     "internal": 0.4449498,
+     "switching": 0.1323176,
+     "leakage": 3.989915e-07,
+     "total": 0.5772678
+    },
+    "combinational": {
+     "internal": 0.3722106,
+     "switching": 0.48236850000000003,
+     "leakage": 1.954289e-06,
+     "total": 0.854581
+    },
+    "clock": {
+     "internal": 0.1792733,
+     "switching": 0.1490601,
+     "leakage": 1.054362e-06,
+     "total": 0.32833439999999997
+    },
+    "total": {
+     "internal": 0.9964337,
+     "switching": 0.7637461,
+     "leakage": 3.4076509999999997e-06,
+     "total": 1.760183
+    }
+   },
+   "100": {
+    "sequential": {
+     "internal": 0.5708633,
+     "switching": 0.1722645,
+     "leakage": 3.98516e-07,
+     "total": 0.7431281000000001
+    },
+    "combinational": {
+     "internal": 0.38571930000000004,
+     "switching": 0.49916499999999997,
+     "leakage": 1.9525629999999998e-06,
+     "total": 0.8848864
+    },
+    "clock": {
+     "internal": 0.195315,
+     "switching": 0.1830005,
+     "leakage": 1.052928e-06,
+     "total": 0.3783166
+    },
+    "total": {
+     "internal": 1.1518979999999999,
+     "switching": 0.85443,
+     "leakage": 3.404015e-06,
+     "total": 2.0063310000000003
+    }
+   }
+  },
+  "gls": "PASS",
+  "drc_magic": 0,
+  "lvs": "Circuits match uniquely.",
+  "route_drc": 0,
+  "antenna": 0,
+  "eco": "1 metal3 min-area patch on net B[4], applied in Magic (config/magic_eco.tcl), verified by Magic DRC + Netgen LVS"
+ },
+ "rtl_sim": {
+  "rtl_s1_f0_g0.log": "PASS  (5350 cycle checks, 0 errors)",
+  "rtl_s1_f1_g0.log": "PASS  (5350 cycle checks, 0 errors)",
+  "rtl_s2_f0_g0.log": "PASS  (5360 cycle checks, 0 errors)",
+  "rtl_s2_f1_g0.log": "PASS  (5360 cycle checks, 0 errors)",
+  "rtl_s2_f1_g1.log": "PASS  (5360 cycle checks, 0 errors)",
+  "rtl_s3_f0_g0.log": "PASS  (5370 cycle checks, 0 errors)",
+  "rtl_s3_f1_g0.log": "PASS  (5370 cycle checks, 0 errors)",
+  "rtl_s3_f1_g1.log": "PASS  (5370 cycle checks, 0 errors)",
+  "final": "PASS  (5360 cycle checks, 0 errors)"
+ }
+}
