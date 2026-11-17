@@ -97,7 +97,7 @@ cd IIC-OSIC-TOOLS && ./start_shell.sh       # the first run downloads the image 
 # inside the container
 sak-pdk sky130A
 cd /foss/designs/Synchronous-8-bit-MAC
-./run_all.sh check     # are the tools and PDK there?
+./run_all.sh check   
 ./run_all.sh all       # simulation, synthesis, place and route, sign-off, post-layout simulation
 ./verify.sh            # expect: SUMMARY: 17 passed, 0 failed / VERIFY: PASS
 ```
@@ -138,7 +138,3 @@ the reference results stay untouched.
 
 Yosys 0.33 · OpenROAD 2.0-17198 (with OpenSTA) · Magic 8.3 · Netgen 1.5 · Icarus Verilog · KLayout · GTKWave ·
 SKY130 PDK (open_pdks bdc9412b)
-
-## About
-
-Built for Assignment 2 of ELL7301/ELL734 Digital CMOS VLSI Design at IIT Delhi by Kabir Kashyap.
